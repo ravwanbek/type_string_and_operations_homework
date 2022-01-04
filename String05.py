@@ -1,3 +1,4 @@
+
 def main(s1,s2):
     """
     s1 and s2 strings are given. return the result by adding a space (" ") between them.
@@ -7,4 +8,9 @@ def main(s1,s2):
     Returns:
         str: return answer.
     """
-    return 
+    answer=s1+" "+s2
+
+    return answer
+s1='Salom'
+s2='Ali'
+print(main(s1,s2))
