@@ -6,9 +6,11 @@ def main():
         str: return answer.
     """
     answer='12345678'
+    if len(answer)==8:
+        answer=8
     
 
 
 
-    return len(answer)
+    return answer
 print(main())
