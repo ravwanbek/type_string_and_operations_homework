@@ -7,7 +7,7 @@ def main():
     """
     answer='12345678'
     if len(answer)==8:
-        answer=8
+        answer='8'
     
 
 
