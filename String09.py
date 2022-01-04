@@ -8,6 +8,6 @@ def main(x1,x2,x3):
     Returns:
         str: return answer.
     """
-    answer='['+x1+','+x2+','+x3+']'
+    answer='['+str(x1)+','+str(x2)+','+str(x3)+']'
     return answer
-print(main(x1='Name',x2='Last name',x3='Father\'s name'))
+print(main(3,4,5))
