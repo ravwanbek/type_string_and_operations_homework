@@ -6,6 +6,6 @@ def main():
     Returns:
         str: return answer.
     """
-    answer='\156\155\155\155\155'
+    answer="\u002A"*5
     return answer
 print(main())
