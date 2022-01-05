@@ -8,7 +8,7 @@ def main(x,y):
         str: return answer.
     """
     a=(x+y)*2
-    answer='"'+'('+str(x)+'+'+str(y)+')'+'*'+'2'+'='+f'{a}'+'"'
+    answer='('+str(x)+'+'+str(y)+')'+'*'+'2'+'='+f'{a}'
 
     return answer
 print(main(1,2))
